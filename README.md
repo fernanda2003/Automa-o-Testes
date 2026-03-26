@@ -17,7 +17,6 @@ Ou, caso necessário:
 ```bash
 python -m pip install coverage
 ```
-
 ---
 
 ### ▶️ Executando os testes com coverage
@@ -25,7 +24,7 @@ python -m pip install coverage
 Para rodar os testes e coletar dados de cobertura:
 
 ```bash
-python -m coverage run -m pytest
+python -m coverage run -m pytest "nome do exercicio caso queira especificar"
 ```
 
 ---
